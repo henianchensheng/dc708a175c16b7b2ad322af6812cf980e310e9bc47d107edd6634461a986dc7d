@@ -3,19 +3,29 @@ name: henianchensheng
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 2/6 * * *'
+    - cron: '47 3/6 * * *'
 
-jobs:  # 29025
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: henianchensheng
         env:
-          evmm92: ${{ secrets.evmm92 }}
+          xvi4: ${{ secrets.xvi4 }}
         run: |
-          echo $evmm92 | jq -r .amwx2 | /bin/bash
-          echo $h30662 | jq -r .h99197 | /bin/bash
-          echo $ad536 | jq -r .wpl77274 | /bin/bash
-          echo $wdqg234 | jq -r .tp7 | /bin/bash
+          echo $xvi4 | jq -r .f9 | /bin/bash
+          echo $yeqyr99 | jq -r .ixqox221 | /bin/bash
+          echo $co73 | jq -r .eki5152 | /bin/bash
+          echo $xkoq66628 | jq -r .xk399 | /bin/bash
+          echo $olg21769 | jq -r .od5 | /bin/bash
+          echo $boj09487 | jq -r .n79076 | /bin/bash
+          echo $mcax17011 | jq -r .md8 | /bin/bash
+          echo $l2974 | jq -r .mirsp74 | /bin/bash
+          echo $pbed349 | jq -r .iyyr70254 | /bin/bash
+          echo $k00 | jq -r .lnfh460 | /bin/bash
+          echo $i212 | jq -r .ge98 | /bin/bash
+          echo $kkzww2485 | jq -r .lptu6 | /bin/bash
+          echo $opj67 | jq -r .dd2147 | /bin/bash
 
